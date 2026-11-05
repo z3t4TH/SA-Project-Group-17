@@ -1,0 +1,29 @@
+# Runtime data and credentials are generated locally.
+data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.lock
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Private archives, optional downloaded executables, and build artifacts.
+.local-archive/
+.tools/
+dist/
+build/
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+*.log
+.DS_Store

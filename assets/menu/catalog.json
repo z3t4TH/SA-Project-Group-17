@@ -1,0 +1,1423 @@
+{
+  "version": "owner-photos-2026-10-27-v1",
+  "sources": [
+    "menu-01.jpeg",
+    "menu-02.jpeg"
+  ],
+  "size_confirmation": "เจ้าของตอบยืนยันขนาด: สองราคาเล็ก/ใหญ่ สามราคาเล็ก/กลาง/ใหญ่; ชื่อวัตถุดิบที่ระบุไว้แยกตามภาพ",
+  "items": [
+    {
+      "key": "photo:915857f30f375f74",
+      "name": "ยำสามกรอบ",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:53a06881d69baf9f",
+      "name": "ยำปลาดุกฟู",
+      "category": "ยำ",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:66c6205e201508de",
+      "name": "ยำรวมมิตร",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:88608ddc1d7f8c14",
+      "name": "ยำวุ้นเส้น",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:348aecac6e4836a0",
+      "name": "ยำยอดมะพร้าวอ่อนกุ้ง",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5a0a5000f5cde891",
+      "name": "ยำยอดมะพร้าวอ่อนคอหมูย่าง",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:7268b4c826342623",
+      "name": "ยำปูเค็ม",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3c1ca2aa9230f056",
+      "name": "ยำคอหมูย่าง",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:cffef3e6311acd1e",
+      "name": "ยำตะไคร้/กุ้ง",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b6e023bcae64dee4",
+      "name": "ยำแหนม",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c3d205c22f2eba99",
+      "name": "ยำหมูยอ",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5ef934e8713da88e",
+      "name": "ยำหมึก",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:24e55823c19087bf",
+      "name": "ยำกุ้ง",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:582f69c8cef5b579",
+      "name": "ยำมาม่าทะเล",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:06073b7cb0e2e0f7",
+      "name": "ยำมาม่าหมูสับ",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:94cbd1d406a5ef9c",
+      "name": "ยำไข่ดาว",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:506b3235d55dd58c",
+      "name": "ยำไข่เค็ม",
+      "category": "ยำ",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:7387ce9948b56aa3",
+      "name": "กุ้งชุบแป้งทอด",
+      "category": "ทอด",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:cb1fe078c7337215",
+      "name": "หมึกชุบแป้งทอด",
+      "category": "ทอด",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a578173675882c5a",
+      "name": "เฟรนช์ฟรายส์",
+      "category": "ทอด",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:7eb76ea83734c86a",
+      "name": "หมูทอด",
+      "category": "ทอด",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:234629f3a9b7631b",
+      "name": "หมูแดดเดียว",
+      "category": "ทอด",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b5378c5fb0b6d4d2",
+      "name": "หมูทอดกระเทียม",
+      "category": "ทอด",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:0e80ae7e2c6b0740",
+      "name": "ไข่เจียวปู",
+      "category": "ทอด",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:227f9ddf699011d0",
+      "name": "ไข่เจียวทะเล",
+      "category": "ทอด",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3d4ce71184b2e0f1",
+      "name": "ทะเลชุบแป้งทอด",
+      "category": "ทอด",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:0c6d6ce199c5fabe",
+      "name": "ลาบหมูทอด",
+      "category": "ทอด",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a642b0cf06f0f351",
+      "name": "ทอดมันปลา",
+      "category": "ทอด",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:f9984244c6470fb6",
+      "name": "ไข่เจียวธรรมดา",
+      "category": "ทอด",
+      "price": 3000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ec534c40215b6f6c",
+      "name": "ไข่เจียวหมูสับ",
+      "category": "ทอด",
+      "price": 4000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ac116edf9ffe67b9",
+      "name": "ไข่เจียวกุ้งสับ",
+      "category": "ทอด",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:9fb7b8e2e8d750e6",
+      "name": "ข้าวผัดรวมมิตร (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:df6a9f7e3997693c",
+      "name": "ข้าวผัดรวมมิตร (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:158a3f3751651818",
+      "name": "ข้าวผัดรวมมิตร (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:e50cd34678276c40",
+      "name": "ข้าวผัดทะเล (กุ้ง/หมึก) (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5d08902770244582",
+      "name": "ข้าวผัดทะเล (กุ้ง/หมึก) (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c5a30c15a9ac1c62",
+      "name": "ข้าวผัดทะเล (กุ้ง/หมึก) (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d2dda39472d1cf5d",
+      "name": "ข้าวผัดปู (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:94f04ed6bb28e5ff",
+      "name": "ข้าวผัดปู (กลาง)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:88b9ccb8a67cf1bb",
+      "name": "ข้าวผัดปู (ใหญ่)",
+      "category": "ข้าว",
+      "price": 15000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:82f53f596fb8668b",
+      "name": "ข้าวคลุกกะปิ (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:6f5840c4cf01f91f",
+      "name": "ข้าวคลุกกะปิ (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5329a35b2f9d9bf8",
+      "name": "ข้าวผัดแหนม (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:41ac3e2fa8f7df89",
+      "name": "ข้าวผัดแหนม (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:366021cef16ad81a",
+      "name": "ข้าวผัดแหนม (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ca05dd5fc957b3df",
+      "name": "ข้าวผัดกุนเชียง (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:72d003d62c64f6cd",
+      "name": "ข้าวผัดกุนเชียง (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:2dc2fe36db51bdcf",
+      "name": "ข้าวผัดกุนเชียง (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:f0c0031d1c825301",
+      "name": "ข้าวผัดหมู (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:50ba1789ac3babd0",
+      "name": "ข้าวผัดหมู (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:89b46a931d94c025",
+      "name": "ข้าวผัดหมู (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:615099394f501195",
+      "name": "ข้าวผัดหมูยอ (เล็ก)",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b1c82fd9102c2225",
+      "name": "ข้าวผัดหมูยอ (กลาง)",
+      "category": "ข้าว",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c621fbf1268dfd16",
+      "name": "ข้าวผัดหมูยอ (ใหญ่)",
+      "category": "ข้าว",
+      "price": 10000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d82085fd1fad0ba5",
+      "name": "ข้าวผัดไข่ (เล็ก)",
+      "category": "ข้าว",
+      "price": 4000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3655729fc9f16762",
+      "name": "ข้าวผัดไข่ (กลาง)",
+      "category": "ข้าว",
+      "price": 6000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:e3603e3f25adad56",
+      "name": "ข้าวผัดไข่ (ใหญ่)",
+      "category": "ข้าว",
+      "price": 9000,
+      "source_image": 1,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ebc3fce60f54e5a3",
+      "name": "ข้าวหมูทอด",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:e9ceddb88f70d117",
+      "name": "ข้าวไข่เจียวหมู",
+      "category": "ข้าว",
+      "price": 4000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:9f020459b6cf1851",
+      "name": "ข้าวไข่เจียวกุ้ง",
+      "category": "ข้าว",
+      "price": 4000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:1d0014ce4a17de79",
+      "name": "ข้าวไข่เจียวปู",
+      "category": "ข้าว",
+      "price": 5000,
+      "source_image": 1,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:52388d1e3a250392",
+      "name": "ข้าวไข่เจียวธรรมดา",
+      "category": "ข้าว",
+      "price": 3000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3c9f92bd97e5a7f7",
+      "name": "เป๊ปซี่ (เล็ก)",
+      "category": "เครื่องดื่ม",
+      "price": 1500,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5a06c2e7cc4887cd",
+      "name": "เป๊ปซี่ (ใหญ่)",
+      "category": "เครื่องดื่ม",
+      "price": 3500,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:4497ee8e3f58e748",
+      "name": "มิรินด้า (เล็ก)",
+      "category": "เครื่องดื่ม",
+      "price": 1500,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d2c27ea252ed7ba6",
+      "name": "มิรินด้า (ใหญ่)",
+      "category": "เครื่องดื่ม",
+      "price": 3500,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d2f60b3badcc5f84",
+      "name": "น้ำดื่มอควาฟิน่า (เล็ก)",
+      "category": "เครื่องดื่ม",
+      "price": 1500,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:58bd316a2fb8bc4a",
+      "name": "น้ำดื่มอควาฟิน่า (ใหญ่)",
+      "category": "เครื่องดื่ม",
+      "price": 2000,
+      "source_image": 1,
+      "variant_basis": "เล็ก/ใหญ่ระบุในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d468ff00469840b3",
+      "name": "เบียร์ช้าง",
+      "category": "เครื่องดื่ม",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c5edaf392ec2ff07",
+      "name": "เบียร์ลีโอ",
+      "category": "เครื่องดื่ม",
+      "price": 8000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3a64237729b37985",
+      "name": "น้ำแข็ง (ถัง)",
+      "category": "เครื่องดื่ม",
+      "price": 1000,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:95716ac61a46daeb",
+      "name": "น้ำมะพร้าวอ่อน",
+      "category": "เครื่องดื่ม",
+      "price": 1500,
+      "source_image": 1,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:439b641524f37c4f",
+      "name": "ตำไทย",
+      "category": "ส้มตำ",
+      "price": 3000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b3704b23f3ab942b",
+      "name": "ตำไทยปู",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:33a05a6ca1dab920",
+      "name": "ตำปู",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:2db706670ffc9775",
+      "name": "ตำปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:23090a5cab3e1a28",
+      "name": "ตำซั่วปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:fc22a71b9b5a440f",
+      "name": "ตำหอยดอง",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:984b8b7be319f18d",
+      "name": "ตำกุ้งดิบ",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:756e6b3bb5f6ae4c",
+      "name": "ตำกุ้งลวกสุก",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ddad119ab791dd74",
+      "name": "ตำมะม่วงไทย",
+      "category": "ส้มตำ",
+      "price": 3500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:893dbdba8b0fb261",
+      "name": "ตำมะม่วงปู",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:fcb25f1c56091541",
+      "name": "ตำมะม่วงไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c2775667dd905b9f",
+      "name": "ตำมะม่วงปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:20f2b4323064fe1f",
+      "name": "ตำมะม่วงทะเล",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ad297be8e3bee995",
+      "name": "ตำแครอทไทย",
+      "category": "ส้มตำ",
+      "price": 3500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:8c84f3f7daba34a9",
+      "name": "ตำแครอทปู",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:afc646bd6b196beb",
+      "name": "ตำแครอทไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:f10525ad04a9e3b8",
+      "name": "ตำแครอททะเล",
+      "category": "ส้มตำ",
+      "price": 6500,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:19193ef40809abc5",
+      "name": "ตำแครอทปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:aa7eb68a0338bdf7",
+      "name": "ตำแครอทคอหมูย่าง",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5bdf0de28f687bab",
+      "name": "ตำทะเล",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:932e4e1ec42d77a2",
+      "name": "ตำรวมมิตรไทย",
+      "category": "ส้มตำ",
+      "price": 3500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a7961a46603babd7",
+      "name": "ตำรวมมิตรไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ce3cb226561f2af1",
+      "name": "ตำรวมมิตรทะเล",
+      "category": "ส้มตำ",
+      "price": 6500,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:264c4f329b101668",
+      "name": "ตำยอดมะพร้าวไทย",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:6e9af5c1d218a63f",
+      "name": "ตำยอดมะพร้าวไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:9c9c1b43ddfef7c1",
+      "name": "ตำยอดมะพร้าวคอหมูย่าง",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:06e680d80528eec6",
+      "name": "ตำยอดมะพร้าวทะเล",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:eba4db337d4b03bc",
+      "name": "ตำข้าวโพดไทย",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:592422c10c5d9c11",
+      "name": "ตำข้าวโพดไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:7f979cdfff2d031c",
+      "name": "ตำข้าวโพดทะเล",
+      "category": "ส้มตำ",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:15e73ac6a6bbd92f",
+      "name": "ตำข้าวโพดปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4500,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a1c4875066f547d8",
+      "name": "ตำถั่วไทย",
+      "category": "ส้มตำ",
+      "price": 3000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:fc16911955fcd7fc",
+      "name": "ตำถั่วไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:acbda8c96826b77a",
+      "name": "ตำถั่วทะเล",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5753d537b35a1e18",
+      "name": "ตำถั่วปู",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a2153bc13ed6db7d",
+      "name": "ตำถั่วปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:8bc57e2c3652287e",
+      "name": "ตำผลไม้ไทย",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:371417536d31ffcd",
+      "name": "ตำผลไม้ไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:22c9dfa67f64a262",
+      "name": "ตำผลไม้ทะเล",
+      "category": "ส้มตำ",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:cfc966613a436269",
+      "name": "ตำผลไม้ปู",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:e7a08219cfa99585",
+      "name": "ตำผลไม้ปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:af1f951d409cffac",
+      "name": "ตำแตงไทย",
+      "category": "ส้มตำ",
+      "price": 3000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d8857797e745dd30",
+      "name": "ตำแตงไข่เค็ม",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:db4e2a5aa169d6e4",
+      "name": "ตำแตงทะเล",
+      "category": "ส้มตำ",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:42792cdf263e2435",
+      "name": "ตำแตงปู",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:c4bc162098058863",
+      "name": "ตำแตงปูปลาร้า",
+      "category": "ส้มตำ",
+      "price": 4000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a0348a9a8589f346",
+      "name": "ลาบหมู",
+      "category": "ลาบและน้ำตก",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:69ce3a99b7edbbc1",
+      "name": "ลาบเนื้อ",
+      "category": "ลาบและน้ำตก",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:37eaf32491b1bd20",
+      "name": "ลาบปลาดุก",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:f946ea403d045de3",
+      "name": "ลาบไก่",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:f27f5b314f2f5b31",
+      "name": "ลาบเป็ด",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:4656eb3bb46064ea",
+      "name": "ตับหวาน (หมู)",
+      "category": "ลาบและน้ำตก",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:17e60ef837d16737",
+      "name": "ลาบทะเล",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ba6d6c86b29e278c",
+      "name": "ลาบกุ้งดิบ",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:ddd9ba1c869d2093",
+      "name": "ลาบกุ้งลวก",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:614d8f347beb99a2",
+      "name": "น้ำตกหมู",
+      "category": "ลาบและน้ำตก",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:3df8e1afbc302634",
+      "name": "น้ำตกเนื้อ",
+      "category": "ลาบและน้ำตก",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:4418203a897bec3f",
+      "name": "น้ำตกคอหมูย่าง",
+      "category": "ลาบและน้ำตก",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:67184c10cf896b34",
+      "name": "ก้อยเนื้อ",
+      "category": "ลาบและน้ำตก",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:642e35fab237ae59",
+      "name": "ซุปหน่อไม้",
+      "category": "ลาบและน้ำตก",
+      "price": 0,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": "เจ้าของระบุให้รอยืนยันราคา ยังไม่เปิดขาย"
+    },
+    {
+      "key": "photo:e2dd2c3825087b6d",
+      "name": "เมี่ยงคำ (เล็ก)",
+      "category": "เมี่ยงคำ",
+      "price": 5000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b7b7ca9fc0c29b7c",
+      "name": "เมี่ยงคำ (ใหญ่)",
+      "category": "เมี่ยงคำ",
+      "price": 8000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:55c88b511c92446c",
+      "name": "คอหมูย่าง",
+      "category": "ย่าง",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:532989670e448a9a",
+      "name": "ไก่ย่าง",
+      "category": "ย่าง",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:d73959e7f4fffd4c",
+      "name": "ลิ้นหมูย่าง",
+      "category": "ย่าง",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:58b7ad42461f8c93",
+      "name": "ตับหมูย่าง",
+      "category": "ย่าง",
+      "price": 6000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:bf0def4161f1006b",
+      "name": "เนื้อย่าง",
+      "category": "ย่าง",
+      "price": 7000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:6c6e0652dc2526fc",
+      "name": "ปลาทับทิมเผาเกลือ",
+      "category": "ย่าง",
+      "price": 19000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:bc2972a3f878e006",
+      "name": "เนื้อแดดเดียว",
+      "category": "ย่าง",
+      "price": 8000,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:6c8e486ce9fd3cf1",
+      "name": "ปลาดุกย่าง",
+      "category": "ย่าง",
+      "price": 0,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": "ตัวเลขแก้ไขในภาพอ่านไม่ชัด เจ้าของระบุให้รอยืนยันราคา"
+    },
+    {
+      "key": "photo:a33b9678981a55a9",
+      "name": "ไส้กรอก/ไส้อั่ว",
+      "category": "ย่าง",
+      "price": 0,
+      "source_image": 2,
+      "variant_basis": "ตามภาพ",
+      "review_note": "ภาพไม่มีราคาที่อ่านได้ เจ้าของระบุให้รอยืนยันราคา"
+    },
+    {
+      "key": "photo:0053bb7f2117d1bc",
+      "name": "ต้มยำปลากะพง น้ำข้น (เล็ก)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 10000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b85949057b7b513f",
+      "name": "ต้มยำปลากะพง น้ำข้น (ใหญ่)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 15000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:5a14fac6dea6bd12",
+      "name": "ต้มยำปลากะพง น้ำใส (เล็ก)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 10000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:bdbb6e181ca50688",
+      "name": "ต้มยำปลากะพง น้ำใส (ใหญ่)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 15000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:0103bb396adb34d2",
+      "name": "ต้มยำทะเล น้ำข้น (เล็ก)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 10000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b892f9b8f34cebbb",
+      "name": "ต้มยำทะเล น้ำข้น (ใหญ่)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 15000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:a3df46d48c4200af",
+      "name": "ต้มยำทะเล น้ำใส (เล็ก)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 10000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:33633e84c04fe322",
+      "name": "ต้มยำทะเล น้ำใส (ใหญ่)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 15000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:b3ade435b1740761",
+      "name": "ต้มแซ่บกระดูกอ่อนหมู (เล็ก)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 10000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:36e5995d17b484c3",
+      "name": "ต้มแซ่บกระดูกอ่อนหมู (ใหญ่)",
+      "category": "ต้มยำและต้มแซ่บ",
+      "price": 15000,
+      "source_image": 2,
+      "variant_basis": "ขนาดที่เจ้าของยืนยัน",
+      "review_note": ""
+    },
+    {
+      "key": "photo:30a800290ecac475",
+      "name": "ข้าวเหนียวขาว",
+      "category": "ข้าวและเครื่องเคียง",
+      "price": 1000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:0c422a4f2b3d83e2",
+      "name": "ข้าวเหนียวดำ",
+      "category": "ข้าวและเครื่องเคียง",
+      "price": 1000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:bcd3974ef3cbde86",
+      "name": "ข้าวสวย",
+      "category": "ข้าวและเครื่องเคียง",
+      "price": 1000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    },
+    {
+      "key": "photo:fff6074baf5d1fd3",
+      "name": "ขนมจีน",
+      "category": "ข้าวและเครื่องเคียง",
+      "price": 1000,
+      "source_image": 2,
+      "variant_basis": "แยกวัตถุดิบตามลำดับชื่อ/ราคาในภาพ",
+      "review_note": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# ฐานข้อมูลเชิงสัมพันธ์ของระบบร้านอาหาร
+
+ระบบใช้ SQLite เก็บข้อมูลเป็นตารางจริง พร้อม Primary Key, Foreign Key และ SQL transactions ไฟล์ .sqlite3 เป็นรูปแบบจัดเก็บของฐานข้อมูล การเป็นไฟล์ binary ไม่ได้เปลี่ยนโครงสร้างเชิงสัมพันธ์ให้กลายเป็นไฟล์ข้อความหรือ JSON
+
+| โหมด | ไฟล์ฐานข้อมูล |
+|---|---|
+| Demo / Cloudflare ผ่าน preview.py | data/demo.sqlite3 |
+| Presentation สามวัน | data/presentation.sqlite3 |
+| ข้อมูลจริง | data/live.sqlite3 |
+
+## ตารางและโครงสร้าง
+
+- **AuditLog**
+- **DailySettlements** — closed_by → Users.user_id
+- **DailyWages** — staff_id → Staff.staff_id, settlement_id → DailySettlements.settlement_id
+- **MenuCatalog** — menu_id → MenuItems.menu_id
+- **MenuItems**
+- **OrderBatchEvents** — user_id → Users.user_id, batch_id → OrderBatches.batch_id
+- **OrderBatchItems** — order_item_id → OrderItems.order_item_id, batch_id → OrderBatches.batch_id
+- **OrderBatches** — kitchen_job_id → PrintJobs.job_id, updated_by → Users.user_id, order_id → Orders.order_id
+- **OrderItems** — menu_id → MenuItems.menu_id, order_id → Orders.order_id
+- **Orders** — table_id → Tables.table_id
+- **Payments** — received_by → Users.user_id, settlement_id → DailySettlements.settlement_id, order_id → Orders.order_id
+- **PrintJobs**
+- **Queues** — table_id → Tables.table_id
+- **Requests**
+- **Reservations** — table_id → Tables.table_id
+- **Sessions** — user_id → Users.user_id
+- **Settings**
+- **Staff**
+- **Tables**
+- **Users**
+
+การจองล่วงหน้าเก็บใน Reservations มี reservation_id เป็น Primary Key และ table_id อ้างถึง Tables.table_id เมื่อจัดโต๊ะแล้ว ส่วนคิว Walk-in เก็บใน Queues แยกกัน ชื่อตาราง Tables หมายถึงโต๊ะอาหาร ไม่ใช่ชื่อตารางการจอง
+
+อ่านโครงสร้าง SQL แบบข้อความได้จาก migrations/001_initial.sql, 002_menu_catalog.sql และ 003_order_batches.sql หรือเปิดฐานด้วยโปรแกรมที่รองรับ SQLite เพื่อดูแต่ละตาราง
+
+## ตัวอย่างตรวจข้อมูลด้วย SQL
+
+```sql
+SELECT reservation_id, reservation_code, customer_name,
+       reservation_datetime, guest_count, status, table_id
+FROM Reservations
+ORDER BY reservation_id DESC;
+
+SELECT r.reservation_code, r.guest_count, r.status, t.table_number
+FROM Reservations AS r
+LEFT JOIN Tables AS t ON t.table_id = r.table_id;
+
+PRAGMA integrity_check;
+PRAGMA foreign_key_check;
+```
+
+ตรวจฐาน Demo วันที่ 5 พฤศจิกายน 2026: 20 ตาราง, 20 Foreign Keys, integrity_check=ok และไม่พบ foreign_key_check violations ทุก connection ของ Model เปิด PRAGMA foreign_keys=ON
+
+ไฟล์ data/demo-readable.sql ที่ส่งออกสำหรับตรวจอ่านเป็น snapshot ณ เวลาส่งออก ข้อมูลใหม่อัปเดตในฐาน .sqlite3 ไม่ได้อัปเดต snapshot โดยอัตโนมัติ ฐานที่มีข้อมูลใช้งานและไฟล์ส่งออกใน data/ ไม่รวมใน GitHub ZIP
