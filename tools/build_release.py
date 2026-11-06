@@ -3,9 +3,11 @@ from pathlib import Path
 import hashlib,json,re,shutil,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 FILES=['README.md','DEMO.md','.gitignore','app.py','config.py','database_tools.py','manage.py','menu_catalog.py','preview.py','preview_access.py','qr.py','restaurant_profile.py','service.py','start-demo.command','start-preview.command','start-presentation.command']
-TREES=['models','controllers','views','static','migrations','assets','tests','.github','examples']
+TREES=['models','controllers','views','static','migrations','assets','tests','.github']
 FILES += ['tools/build_release.py','tools/build_image_credits.py','tools/export_sql_catalog.py']
 FILES += ['tools/export_readable_demo.py']
+FILES += ['data/readable/'+name for name in ['README.md','demo-readable.sql','manifest.json']]
+FILES += ['data/readable/'+name+'.csv' for name in ['AuditLog','DailySettlements','DailyWages','MenuCatalog','MenuItems','OrderBatchEvents','OrderBatchItems','OrderBatches','OrderItems','Orders','Payments','PrintJobs','Queues','Requests','Reservations','Sessions','Settings','Staff','Tables','Users']]
 FILES += ['docs/'+n for n in ['ARCHITECTURE.md','DATABASE.md','QA_REPORT.md','QA_TEST_CASES.md','MVC.md','ORDER_STATUS.md','RESTAURANT_PROFILE.md','REMOTE_PREVIEW.md','CLEANUP.md','RELEASE_CHECKS.md']]
 
 def selected_files():
@@ -29,7 +31,7 @@ def main():
     for p in paths:
         relative=p.relative_to(ROOT);dest=target/relative;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
         manifest.append(dict(path=relative.as_posix(),sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),bytes=dest.stat().st_size))
-    (target/'release-manifest.json').write_text(json.dumps(dict(files=manifest,excluded=['data','sessions and per-bill tokens','preview-access.json','.local-archive','.tools','tmp','report sources and old screenshots']),indent=2))
+    (target/'release-manifest.json').write_text(json.dumps(dict(files=manifest,excluded=['runtime data (except sanitized data/readable examples)','sessions and per-bill tokens','preview-access.json','.local-archive','.tools','tmp','report sources and old screenshots']),indent=2))
     archive=ROOT/'dist/sa-restaurant-github.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(target.rglob('*')):

@@ -59,4 +59,4 @@ def export(destination):
 
 
 if __name__ == '__main__':
-    print(json.dumps(export(ROOT / 'examples/readable-data'), ensure_ascii=False, indent=2))
+    print(json.dumps(export(ROOT / 'data/readable'), ensure_ascii=False, indent=2))

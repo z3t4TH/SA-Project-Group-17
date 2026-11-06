@@ -27,7 +27,7 @@ python3 tools/export_readable_demo.py
 หากต้องการตรวจด้วย SQLite ให้สร้าง **ฐานใหม่สำหรับอ่านเท่านั้น**:
 
 ```sh
-sqlite3 /tmp/sa-inspection.sqlite3 < examples/readable-data/demo-readable.sql
+sqlite3 /tmp/sa-inspection.sqlite3 < data/readable/demo-readable.sql
 sqlite3 /tmp/sa-inspection.sqlite3 'PRAGMA foreign_key_check; SELECT * FROM Reservations;'
 ```
 

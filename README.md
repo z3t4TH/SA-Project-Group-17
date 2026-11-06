@@ -56,7 +56,7 @@ python3 manage.py backup --mode presentation
 
 ## โครงสร้าง
 
-ดูข้อมูลแบบข้อความบน GitHub ได้ที่ [examples/readable-data](examples/readable-data/README.md): SQL พร้อมโครงสร้างและข้อมูลสาธิตสามวัน รวม CSV แยก 20 ตาราง เป็น snapshot ที่ล้างข้อมูลเข้าสู่ระบบแล้ว ไม่ใช่ฐานข้อมูลสดของร้าน
+ดูข้อมูลแบบข้อความบน GitHub ได้ที่ [data/readable](data/readable/README.md): SQL พร้อมโครงสร้างและข้อมูลสาธิตสามวัน รวม CSV แยก 20 ตาราง เป็น snapshot ที่ล้างข้อมูลเข้าสู่ระบบแล้ว ไม่ใช่ฐานข้อมูลสดของร้าน
 
 ```text
 app.py / manage.py          เปิดระบบ / สำรอง / จัดข้อมูลสาธิต
@@ -82,7 +82,7 @@ python3 tools/build_release.py
 
 คำสั่งจัดชุดสร้าง `dist/sa-restaurant-github/` และ ZIP จากรายการไฟล์ที่อนุญาต ไม่คัดลอกฐานข้อมูล sessions/token รหัสลิงก์ tunnel logs archive หรือไฟล์ทดลอง ผู้ดาวน์โหลดสร้าง Demo จาก seed ได้เอง ไม่ต้องมีไฟล์ส่วนตัวในเครื่องต้นทาง
 
-`.gitignore` กัน data/, .local-archive/, .tools/, dist/, caches, .env และกุญแจส่วนตัวออกจาก Git repository ใช้เฉพาะโค้ดและ assets ที่ตรวจแล้ว ฐานข้อมูลและบัญชีที่เพิ่มเฉพาะเครื่องไม่ถูกนำขึ้น GitHub ไม่กำหนดสิทธิ์เผยแพร่โค้ดแทนเจ้าของ; สิทธิ์ภาพประกอบระบุแยกรายไฟล์
+`.gitignore` กันข้อมูลใช้งานใน data/ ยกเว้นชุดตัวอย่าง data/readable/, .local-archive/, .tools/, dist/, caches, .env และกุญแจส่วนตัวออกจาก Git repository ใช้เฉพาะโค้ดและ assets ที่ตรวจแล้ว ฐานข้อมูลและบัญชีที่เพิ่มเฉพาะเครื่องไม่ถูกนำขึ้น GitHub ไม่กำหนดสิทธิ์เผยแพร่โค้ดแทนเจ้าของ; สิทธิ์ภาพประกอบระบุแยกรายไฟล์
 
 ## QR และขอบเขตต้นแบบ
 

@@ -53,6 +53,6 @@ PRAGMA foreign_key_check;
 
 ตรวจฐาน Demo วันที่ 5 พฤศจิกายน 2026: 20 ตาราง, 20 Foreign Keys, integrity_check=ok และไม่พบ foreign_key_check violations ทุก connection ของ Model เปิด PRAGMA foreign_keys=ON
 
-ข้อมูลสมมุติแบบข้อความที่เผยแพร่บน GitHub อยู่ใน [examples/readable-data](../examples/readable-data/README.md) มี SQL พร้อมโครงสร้างและ CSV แยกครบ 20 ตาราง สร้างจาก seed ใหม่โดยไม่อ่านฐานร้าน ล้างข้อมูลเข้าสู่ระบบและรหัส QR แล้ว เหมาะสำหรับตรวจความสัมพันธ์และยอดบัญชี ไม่ใช้แทนฐานเปิดโปรแกรม
+ข้อมูลสมมุติแบบข้อความที่เผยแพร่บน GitHub อยู่ใน [data/readable](../data/readable/README.md) มี SQL พร้อมโครงสร้างและ CSV แยกครบ 20 ตาราง สร้างจาก seed ใหม่โดยไม่อ่านฐานร้าน ล้างข้อมูลเข้าสู่ระบบและรหัส QR แล้ว เหมาะสำหรับตรวจความสัมพันธ์และยอดบัญชี ไม่ใช้แทนฐานเปิดโปรแกรม
 
 ไฟล์ data/demo-readable.sql เดิมเป็น snapshot ส่วนตัว ไม่รวมใน GitHub ข้อมูลใหม่อัปเดตในฐาน .sqlite3 ไม่ได้อัปเดตไฟล์ SQL/CSV โดยอัตโนมัติ

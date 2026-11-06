@@ -1,5 +1,11 @@
 # Runtime data and credentials are generated locally.
-data/
+/data/*
+!/data/readable/
+/data/readable/*
+!/data/readable/*.csv
+!/data/readable/demo-readable.sql
+!/data/readable/manifest.json
+!/data/readable/README.md
 *.sqlite
 *.sqlite3
 *.sqlite3-*
