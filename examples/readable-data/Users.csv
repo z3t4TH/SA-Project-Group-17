@@ -1,0 +1,3 @@
+user_id,username,password_hash,role,name
+1,owner,DISABLED_READ_ONLY_EXAMPLE,OWNER,เจ้าของร้าน (สาธิต)
+2,staff,DISABLED_READ_ONLY_EXAMPLE,STAFF,พนักงาน (สาธิต)

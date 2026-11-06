@@ -56,6 +56,8 @@ python3 manage.py backup --mode presentation
 
 ## โครงสร้าง
 
+ดูข้อมูลแบบข้อความบน GitHub ได้ที่ [examples/readable-data](examples/readable-data/README.md): SQL พร้อมโครงสร้างและข้อมูลสาธิตสามวัน รวม CSV แยก 20 ตาราง เป็น snapshot ที่ล้างข้อมูลเข้าสู่ระบบแล้ว ไม่ใช่ฐานข้อมูลสดของร้าน
+
 ```text
 app.py / manage.py          เปิดระบบ / สำรอง / จัดข้อมูลสาธิต
 models/                    Entity, ธุรกรรม, Operations, ข้อมูลสาธิต และภาพเมนู

@@ -3,8 +3,9 @@ from pathlib import Path
 import hashlib,json,re,shutil,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 FILES=['README.md','DEMO.md','.gitignore','app.py','config.py','database_tools.py','manage.py','menu_catalog.py','preview.py','preview_access.py','qr.py','restaurant_profile.py','service.py','start-demo.command','start-preview.command','start-presentation.command']
-TREES=['models','controllers','views','static','migrations','assets','tests','.github']
+TREES=['models','controllers','views','static','migrations','assets','tests','.github','examples']
 FILES += ['tools/build_release.py','tools/build_image_credits.py','tools/export_sql_catalog.py']
+FILES += ['tools/export_readable_demo.py']
 FILES += ['docs/'+n for n in ['ARCHITECTURE.md','DATABASE.md','QA_REPORT.md','QA_TEST_CASES.md','MVC.md','ORDER_STATUS.md','RESTAURANT_PROFILE.md','REMOTE_PREVIEW.md','CLEANUP.md','RELEASE_CHECKS.md']]
 
 def selected_files():

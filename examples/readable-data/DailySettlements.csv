@@ -1,0 +1,3 @@
+settlement_id,settlement_date,total_sales,material_cost,labor_cost,net_profit_loss,previous_loss,accumulated_loss,distributable_profit,partner_shares,expected_cash,actual_cash,cash_difference,difference_note,closed_by,closed_at
+1,2026-11-03,191000,116000,125000,-50000,0,50000,0,"[0, 0, 0, 0]",71000,71000,0,,1,2026-11-03T16:15:00+07:00
+2,2026-11-04,284000,30000,125000,129000,50000,0,79000,"[19750, 19750, 19750, 19750]",106000,106000,0,,1,2026-11-04T16:15:00+07:00

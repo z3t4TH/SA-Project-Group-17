@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "date": "2026-11-05",
+  "schema_version": 3,
+  "tables": {
+    "AuditLog": 0,
+    "DailySettlements": 2,
+    "DailyWages": 6,
+    "MenuCatalog": 163,
+    "MenuItems": 163,
+    "OrderBatchEvents": 227,
+    "OrderBatchItems": 59,
+    "OrderBatches": 59,
+    "OrderItems": 59,
+    "Orders": 37,
+    "Payments": 30,
+    "PrintJobs": 137,
+    "Queues": 11,
+    "Requests": 0,
+    "Reservations": 11,
+    "Sessions": 0,
+    "Settings": 7,
+    "Staff": 3,
+    "Tables": 8,
+    "Users": 2
+  },
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "notes": "Authentication disabled; sessions, requests and audit omitted; QR tokens and print payloads replaced."
+}
