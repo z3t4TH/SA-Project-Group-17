@@ -26,6 +26,7 @@ class Restaurant:
         self.path = str(path)
         self.demo = demo
         self.clock = clock or (lambda: datetime.now(TZ))
+        self.readable_export = None
         self.operations={
             'auth':AuthOperations(self),
             'reservations':ReservationOperations(self),
@@ -59,15 +60,25 @@ class Restaurant:
     @contextmanager
     def transaction(self):
         c = self.connect()
+        committed = False
         try:
             c.execute('BEGIN IMMEDIATE')
             yield c
             c.commit()
+            committed = True
         except Exception:
             c.rollback()
             raise
         finally:
             c.close()
+        if committed and self.readable_export is not None:
+            self.readable_export.refresh()
+
+    def enable_readable_export(self, destination=None):
+        from models.readable_export import ReadableExport
+        self.readable_export = ReadableExport(
+            self.path, destination or Path(self.path).with_name(Path(self.path).stem + '-readable.sql'))
+        self.readable_export.refresh()
 
     def initialize(self, owner_password=None):
         Path(self.path).parent.mkdir(parents=True, exist_ok=True)

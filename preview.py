@@ -31,6 +31,7 @@ def main():
     access_file=ROOT/'data/preview-access.json'
     with database_lock(app.path):
         app.initialize();install_menu_catalog(app)
+        app.enable_readable_export()
         events=queue.Queue()
         try:
             # Expose the public customer listener; staff APIs still require account login.

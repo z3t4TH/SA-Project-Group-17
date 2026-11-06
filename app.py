@@ -39,6 +39,7 @@ def main():
     with database_lock(application.path):
         application.initialize(password)
         install_menu_catalog(application)
+        application.enable_readable_export()
         try:server=RestaurantHTTPServer((args.host,args.port),make_handler(application,base))
         except OSError as e:raise SystemExit(f'เปิดเซิร์ฟเวอร์ไม่ได้: {e} ใช้ --port เพื่อเลือกพอร์ตอื่น')
         print(f'{PROFILE["name"]} • {"Presentation วันจำลอง" if args.mode=="presentation" else "ข้อมูลสาธิตสมมติ" if application.demo else "ข้อมูลจริง"}\nเปิด {base}\nหยุดด้วย Ctrl+C',flush=True)
